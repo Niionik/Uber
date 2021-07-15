@@ -95,3 +95,25 @@ a {
     padding: 0 16px;
     position: absolute;
 }
+
+.hung {
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 24px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.padd {
+    padding: 8px 0;
+}
+
+.box {
+    box-shadow: inset 0px -1px 0px #e2e2e2;
+    height: 56px;
+    align-items: center;
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+320x538
