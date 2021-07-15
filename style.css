@@ -1,0 +1,90 @@
+html,
+body,
+#root,
+#wrapper {
+    height: 100%;
+}
+
+body {
+    background: #FFFFFF;
+    color: #000000;
+    font-family: UberMoveText-Regular, sans-serif;
+    margin: 0;
+    display: block;
+}
+
+#wrapper {
+    flex-direction: column;
+    display: flex;
+    min-width: 100%;
+}
+
+button {
+    border-width: 0;
+    padding: 0;
+    margin: 0!important;
+    background: transparent;
+    font: inherit;
+    color: inherit;
+    letter-spacing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navsettings {
+    z-index: 1;
+    height: 72px;
+    justify-content: flex-start;
+    padding: 0 16px;
+    margin: 0 auto;
+    background: transparent;
+    color: #000000;
+    position: absolute;
+    flex-direction: row;
+    align-items: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+}
+
+.menubuttonnav {
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+}
+
+.setbuttonmenu {
+    height: 20px;
+    width: 20px;
+}
+
+.spacer_32 {
+    width: 32px;
+}
+
+.spacer_24 {
+    width: 24px;
+}
+
+.NamePagesUber {
+    width: auto;
+    height: 20px;
+    display: flex;
+}
+
+.flex {
+    flex: 1;
+}
+
+.log {
+    padding: 8px 12px;
+    border-radius: 500px;
+    line-height: 16px;
+    font-size: 14px;
+    background: #FFFFFF;
+}
