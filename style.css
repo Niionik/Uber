@@ -99,8 +99,8 @@ a {
 .hung {
     font-size: 36px;
     line-height: 44px;
-    margin-bottom: 24px;
     margin: 0;
+    margin-bottom: 24px;
     font-weight: normal;
 }
 
@@ -116,4 +116,161 @@ a {
     display: flex;
 }
 
-320x538
+.iconmap {
+    height: 48px;
+    width: 48px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-left: 4px;
+}
+
+.iconmap>svg {
+    width: 24px;
+    height: 24px;
+    flex: none;
+}
+
+.textbox {
+    color: #545454;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.modbox {
+    flex-grow: 1;
+    line-height: 20px;
+    display: flex;
+    color: #000000;
+}
+
+.boxdown {
+    margin-bottom: 16px;
+}
+
+.boxup {
+    line-height: 16px;
+    font-size: 14px;
+    margin-top: 24px;
+}
+
+.boxup>a {
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.findeat {
+    background: #000000;
+    color: #FFFFFF;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    min-height: 32px;
+    cursor: pointer;
+    line-height: 24px;
+    font-size: 18px;
+    display: flex;
+}
+
+.presentation {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.back {
+    background-color: #FA9269;
+    height: 100vh;
+}
+
+.app {
+    margin-top: 32px!important;
+    padding: 16px 0 0 0;
+}
+
+.card {
+    margin: 0 16px;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    display: flex;
+}
+
+.itemcard {
+    margin-bottom: 16px;
+    align-items: center;
+    display: flex;
+}
+
+.imgapp {
+    height: 64px;
+    width: 64px;
+    border-radius: 15%;
+    flex-shrink: 0;
+    margin-right: 16px;
+}
+
+.apptext {
+    line-height: 28px;
+    font-size: 24px;
+    margin: 0;
+}
+
+.buttonapp {
+    width: 100%;
+    background: #EEEEEE;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    min-height: 56px;
+    line-height: 24px;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: inherit;
+    color: #000;
+    margin-bottom: 48px!important;
+}
+
+.androidicon {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+.androidicon>svg {
+    height: 18px;
+    width: 18px;
+    fill: currentColor;
+    flex: none;
+    line-height: 24px;
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.layout {
+    margin: 0 16px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.e1 {
+    margin-bottom: 12px;
+}
+
+.image1 {
+    background-color: #E2E2E2;
+    padding-top: 55.970149253731336%;
+    margin-bottom: 8px;
+    width: 100%;
+    position: relative;
+}
+
+.imge1>img {
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
