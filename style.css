@@ -11,6 +11,7 @@ body {
     font-family: UberMoveText-Regular, sans-serif;
     margin: 0;
     display: block;
+    justify-content: center;
 }
 
 #wrapper {
@@ -372,6 +373,10 @@ a {
     color: #FFFFFF;
 }
 
+.footerlayout {
+    display: flex;
+}
+
 .UberBay {
     width: 146px;
     height: 24px;
@@ -447,6 +452,18 @@ a {
     margin-right: 24px;
 }
 
+.sizebox {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 2;
+}
+
+.end {
+    margin-bottom: 40px;
+}
+
 .endopction {
     line-height: 20px;
     font-size: 14px;
@@ -456,4 +473,12 @@ a {
 .set1 {
     margin-bottom: 16px;
     display: flex;
+}
+
+.and {
+    margin-bottom: 16px;
+}
+
+.hop {
+    flex: 1;
 }
