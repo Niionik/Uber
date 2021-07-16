@@ -31,6 +31,7 @@ button {
 
 a {
     text-decoration: none;
+    color: #000000
 }
 
 .navsettings {
@@ -250,7 +251,6 @@ a {
 }
 
 .layout {
-    margin: 0 16px;
     justify-content: center;
     flex-direction: column;
     display: flex;
@@ -258,6 +258,7 @@ a {
 
 .e1 {
     margin-bottom: 12px;
+    color: #000000;
 }
 
 .image1 {
@@ -272,5 +273,187 @@ a {
     width: 100%;
     left: 0;
     top: 0;
-    position: absolute;
+}
+
+.imgdown {
+    margin-bottom: 8px;
+}
+
+.oferttext1 {
+    line-height: 32px;
+    font-size: 24px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.ofertbox {
+    margin-bottom: 36px;
+}
+
+.ofertpressto {
+    text-decoration-line: underline;
+    margin: 0;
+    margin-top: 4px;
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: normal;
+}
+
+.maph2 {
+    margin-bottom: 0;
+}
+
+.fi {
+    margin: 16px 0px;
+}
+
+.fj {
+    height: 360px;
+}
+
+.amap {
+    box-shadow: rgb(0 0 0 / 12%) 0px 4px 16px;
+    border-radius: 50%;
+    transform: translate3d(0px, 0px, 0px);
+    transition: all 300ms ease 0s;
+    height: 30px;
+    width: 30px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.iconpointmap {
+    border-radius: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+.citys {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 16px 8px;
+    grid-auto-flow: column;
+    display: grid;
+}
+
+.city {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.morecity {
+    text-decoration: underline;
+    line-height: 20px;
+    font-size: 16px;
+    margin-bottom: 48px;
+}
+
+.citysh2 {
+    line-height: 32px;
+    font-size: 24px;
+    margin: 0;
+    font-weight: normal;
+    margin-bottom: 24px;
+}
+
+.spacecity {
+    height: 24px;
+}
+
+#footer {
+    margin-top: 64px;
+    padding: 64px 16px 80px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.UberBay {
+    width: 146px;
+    height: 24px;
+    margin-bottom: 48px;
+}
+
+.footerapp {
+    margin-bottom: 64px;
+    display: flex;
+}
+
+.footerapp>a {
+    margin-right: 16px;
+}
+
+.readmore {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 64px;
+}
+
+.footerapp>a>img {
+    height: 40px;
+}
+
+.aboutfooter {
+    margin-bottom: 24px!important;
+}
+
+.noaboutfooter {
+    margin-bottom: 0!important;
+}
+
+.textreadmore {
+    font-size: 16px;
+    margin-bottom: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.langicon {
+    margin-right: 8px;
+    height: 16px;
+    width: 16px;
+    flex: none;
+    font-size: 16px;
+    fill: currentColor;
+}
+
+.hrfooter {
+    background-color: #F6F6F6;
+    margin: 40px 0;
+    height: 1px;
+    border: none;
+}
+
+.socialapp {
+    margin-bottom: 40px;
+    flex-direction: row;
+    display: flex;
+}
+
+.socialiconapp {
+    display: flex;
+}
+
+.icosoc {
+    fill: currentColor;
+    height: 16px;
+    width: 16px;
+    flex: none;
+    color: #FFFFFF;
+    margin-right: 24px;
+}
+
+.endopction {
+    line-height: 20px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.set1 {
+    margin-bottom: 16px;
+    display: flex;
 }
