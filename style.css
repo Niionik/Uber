@@ -539,3 +539,14 @@ a {
 .hop {
     flex: 1;
 }
+
+.gm-style {
+    font: 400 11px Roboto, Arial, sans-serif;
+    text-decoration: none;
+}
+
+.gm-style-pbc {
+    transition: opacity ease-in-out;
+    background-color: rgba(0, 0, 0, 0.45);
+    text-align: center;
+}
