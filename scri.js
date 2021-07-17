@@ -1,8 +1,4 @@
-var x = document.getElementById("bmenu");
+function hellotext() {
 
-button.onclick = function("change") {
-
-
-};
-
-//trwają prace wykończeniowe :C//
+    document.getElementsById('hung').innerHTML = "Zamów śniadanie, lunch i kolację.";
+}
