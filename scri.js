@@ -41,19 +41,38 @@ function colbac() {
 }
 
 
+var menu = document.getElementById("headmenu");
 
 document.getElementById("bmenu").onclick = function() {
-
 
     var menu = document.getElementById("headmenu");
 
     menu.style.display = (menu.style.display == "none") ? "block" : "none";
-    menu.addEventListener("click", function(e) {
-        console.log(e);
-        menu.style.display = (menu.style.display == "none") ? "none" : "block";
-    })
 
 }
+
+function menuclick(e) {
+
+    console.log(e);
+
+    var menu = document.getElementById("headmenu");
+
+    menu.style.display = (menu.style.display == "block") ? "block" : "none";
+}
+
+menu.addEventListener("click", menuclick());
+
+var find = document.getElementById("findfixed");
+var boxstyle = document.getElementById("box");
+
+
+function onScroll(e) {
+
+    window.scrolltop >= boxstyle.classList.add("findfixed");
+}
+
+
+document.addEventListener('scroll', onScroll);
 
 /*
 function imgcreate() {
@@ -84,14 +103,6 @@ function buttonclick(e) {
 
 }
 
-function menuclick(e) {
-
-    console.log(e);
-
-    var menu = document.getElementById("headmenu");
-
-    menu.style.display = (menu.style.display == "none") ? "block" : "none";
-}
 
 
 var but = document.querySelector(".menubuttonnav");

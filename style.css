@@ -134,6 +134,13 @@ a {
     margin: 0 auto;
 }
 
+.findfixed {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+}
+
 .hung {
     font-size: 36px;
     line-height: 44px;
@@ -219,7 +226,7 @@ a {
 }
 
 .back {
-    height: 100vh;
+    height: 90vh;
 }
 
 .app {
