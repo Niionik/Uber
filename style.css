@@ -44,7 +44,6 @@ a {
     margin: 0 auto;
     background: transparent;
     color: #000000;
-    position: absolute;
     flex-direction: row;
     align-items: center;
     top: 0;
@@ -128,9 +127,11 @@ a {
 }
 
 .fin {
-    top: 104px;
     padding: 0 16px;
-    position: absolute;
+    position: relative;
+    max-width: fit-content;
+    z-index: 2;
+    margin: 0 auto;
 }
 
 .hung {
@@ -214,6 +215,7 @@ a {
     bottom: 0;
     left: 0;
     position: absolute;
+    z-index: 1;
 }
 
 .back {
