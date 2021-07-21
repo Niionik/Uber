@@ -13,9 +13,6 @@ function hellotext() {
     } else {
         document.getElementById('hung').innerHTML = "Zamów jedzenie z dostawą pod Twoje drzwi.";
     }
-
-
-
 }
 
 
@@ -23,33 +20,84 @@ function colbac() {
 
     var x = Math.floor(Math.random() * 3);
     var img = document.createElement("img");
+    var svg = ["img/1.svg", "img/2.svg", "img/3.svg", "img/4.svg"]
 
-    img.setAttribute("src", "img/1.svg");
     img.classList.add("presentation");
 
     if (x == 0) {
+        img.setAttribute("src", svg[0]);
         document.getElementById('back').style.backgroundColor = "#FFF2D9";
         document.getElementById("back").prepend(img);
 
     } else if (x == 1) {
+        img.setAttribute("src", svg[1]);
         document.getElementById('back').style.backgroundColor = "#FFD7D2";
-    } else {
+        document.getElementById("back").prepend(img);
+    } else if (x == 2) {
+        img.setAttribute("src", svg[3]);
         document.getElementById('back').style.backgroundColor = "#FFC043";
-    }
+        document.getElementById("back").prepend(img);
+    } else {
+        img.setAttribute("src", svg[2]);
+        document.getElementById('back').style.backgroundColor = "#FFF2D9";
+        document.getElementById("back").prepend(img);
 
+    }
 }
+
+
 
 document.getElementById("bmenu").onclick = function() {
 
-    console.log(e);
 
     var menu = document.getElementById("headmenu");
 
     menu.style.display = (menu.style.display == "none") ? "block" : "none";
+    menu.addEventListener("click", function(e) {
+        console.log(e);
+        menu.style.display = (menu.style.display == "none") ? "none" : "block";
+    })
+
 }
 
 /*
-function menuclick() {
+function imgcreate() {
+    var img = document.createElement("img");
+
+    var svg = ["img/1.svg", "img/2.svg", "img/3.svg", "img/4.svg"]
+
+    img.classList.add("presentation");
+    img.setAttribute("src", svg);
+
+
+
+
+}
+
+
+
+
+function buttonclick(e) {
+    console.log(e);
+    var menu = document.getElementById("headmenu");
+    var butmen = document.getElementById("bmenu");
+
+    menu.addEventListener("click", function() {
+        menu.style.display = (menu.style.display == "none") ? "block" : "none";
+    });
+    butmen.addEventListener("click", function() {
+        menu.style.display = (menu.style.display == "none") ? "block" : "none";
+    });
+
+
+}
+
+
+
+
+
+
+function menuclick(e) {
 
     console.log(e);
 
@@ -57,12 +105,23 @@ function menuclick() {
 
     menu.style.display = (menu.style.display == "none") ? "block" : "none";
 }
+
 
 var but = document.querySelector(".menubuttonnav");
 
 but.addEventListener("click", menuclick(), false);
 
 
+document.getElementById("bmenu").onclick = function(e) {
+
+    console.log(e);
+
+    var menu = document.getElementById("headmenu");
+
+    menu.addEventListener("click", menu);
+
+    menu.style.display = (menu.style.display == "none") ? "block" : "none";
+}
 
 function menuclick(e) {
     console.log(e);
