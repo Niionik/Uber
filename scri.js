@@ -57,79 +57,26 @@ function menuclick(e) {
 
     var menu = document.getElementById("headmenu");
 
-    menu.style.display = (menu.style.display == "block") ? "block" : "none";
+    menu.style.display = (menu.style.display == "none") ? "block" : "none";
 }
 
-menu.addEventListener("click", menuclick());
+menu.addEventListener("click", menuclick);
 
-var find = document.getElementById("findfixed");
+
 var boxstyle = document.getElementById("box");
+var body = document.getElementById("wrapper");
 
 
 function onScroll(e) {
 
-    window.scrolltop >= boxstyle.classList.add("findfixed");
-}
+    console.log(body.scrollTop);
 
+    if (window.scrollY > 130) {
+        boxstyle.classList.add("findfixed");
+    } else if (window.scrollY == 0) {
+
+        boxstyle.classList.remove("findfixed");
+    }
+}
 
 document.addEventListener('scroll', onScroll);
-
-/*
-function imgcreate() {
-    var img = document.createElement("img");
-
-    var svg = ["img/1.svg", "img/2.svg", "img/3.svg", "img/4.svg"]
-
-    img.classList.add("presentation");
-    img.setAttribute("src", svg);
-
-
-
-
-}
-
-function buttonclick(e) {
-    console.log(e);
-    var menu = document.getElementById("headmenu");
-    var butmen = document.getElementById("bmenu");
-
-    menu.addEventListener("click", function() {
-        menu.style.display = (menu.style.display == "none") ? "block" : "none";
-    });
-    butmen.addEventListener("click", function() {
-        menu.style.display = (menu.style.display == "none") ? "block" : "none";
-    });
-
-
-}
-
-
-
-var but = document.querySelector(".menubuttonnav");
-
-but.addEventListener("click", menuclick(), false);
-
-
-document.getElementById("bmenu").onclick = function(e) {
-
-    console.log(e);
-
-    var menu = document.getElementById("headmenu");
-
-    menu.addEventListener("click", menu);
-
-    menu.style.display = (menu.style.display == "none") ? "block" : "none";
-}
-
-function menuclick(e) {
-    console.log(e);
-
-    var menu = document.getElementById("headmenu");
-
-    menu.addEventListener("click", menu, false);
-
-    menu.style.display = (menu.style.display == "none") ? "block" : "none";
-}
-
-
-*/
