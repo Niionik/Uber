@@ -631,7 +631,9 @@ a {
         width: 146px;
     }
     .back {
-        height: 80vh;
+        <<<<<<< HEAD height: 80vh;
+        =======height: 75vh;
+        >>>>>>>654fd35a6b475b8a5fd192f2ffc58af96972b357
     }
     .log {
         min-height: 56px;
