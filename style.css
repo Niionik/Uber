@@ -94,13 +94,6 @@ a {
     box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
 }
 
-
-/*
-.headmenu {
-    
-}
-*/
-
 .setbuttonmenu {
     height: 20px;
     width: 20px;
@@ -132,6 +125,21 @@ a {
     background: #FFFFFF;
     box-shadow: 0px 0px 8px rgb(0 0 0 / 10%), 0px 4px 4px rgb(0 0 0 / 4%);
     align-items: center;
+}
+
+.log>p {
+    margin: 0;
+}
+
+.logapptwo {
+    padding: 8px 12px;
+    border-radius: 500px;
+    line-height: 16px;
+    font-size: 14px;
+    background: #EEEEEE;
+    box-shadow: 0px 0px 8px rgb(0 0 0 / 10%), 0px 4px 4px rgb(0 0 0 / 4%);
+    align-items: center;
+    margin-right: 8px;
 }
 
 .fin {
@@ -353,8 +361,21 @@ a {
     font-weight: normal;
 }
 
+.sizetitlemap {
+    display: flex;
+}
+
 .maph2 {
-    margin-bottom: 0;
+    margin: 0;
+}
+
+.morecitysize {
+    display: none;
+    width: 55%;
+    text-align: end;
+    text-decoration-line: underline;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .fi {
@@ -414,8 +435,16 @@ a {
     margin-bottom: 24px;
 }
 
+.sizecitys {
+    display: none;
+}
+
 .spacecity {
     height: 24px;
+}
+
+.spacecity2 {
+    height: 48px;
 }
 
 #footer {
@@ -512,6 +541,11 @@ a {
     flex: 2;
 }
 
+.sizeiconappbut {
+    height: 16px;
+    width: 16px;
+}
+
 .end {
     margin-bottom: 40px;
 }
@@ -522,6 +556,10 @@ a {
     color: #FFFFFF;
 }
 
+.set1:hover {
+    text-decoration-line: underline;
+}
+
 .set1 {
     margin-bottom: 16px;
     display: flex;
@@ -529,6 +567,10 @@ a {
 
 .and {
     margin-bottom: 16px;
+}
+
+.f5:hover {
+    text-decoration-line: underline;
 }
 
 .hop {
@@ -602,6 +644,11 @@ a {
     margin-right: 8px;
 }
 
+.sizebutapp {
+    display: none;
+    margin: auto 0;
+}
+
 .appclickmenu>a>svg {
     width: 23px;
     margin-right: 5px;
@@ -631,12 +678,10 @@ a {
         width: 146px;
     }
     .back {
-        <<<<<<< HEAD height: 80vh;
-        =======height: 75vh;
-        >>>>>>>654fd35a6b475b8a5fd192f2ffc58af96972b357
+        height: 80vh;
+        height: 75vh;
     }
     .log {
-        min-height: 56px;
         line-height: 24px;
         font-size: 18px;
         z-index: 2;
@@ -646,7 +691,7 @@ a {
         width: auto;
     }
     .log>p {
-        margin: 0;
+        padding: 12px 16px;
     }
     .fin {
         width: 100%;
@@ -684,15 +729,17 @@ a {
     }
     .ofertbox {
         display: inline-block;
+        padding: 0 12px;
+        margin-bottom: 80px;
     }
     .app {
-        padding-top: 80px!important;
+        margin-top: 80px!important;
     }
     .sizeappinfo {
-        display: flex;
         justify-content: center;
     }
     .itemcard {
+        margin: 0;
         margin-right: 8px;
     }
     .imgapp {
@@ -701,5 +748,101 @@ a {
     }
     .sizecardimg {
         display: inline-flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .sizeheadappdiv {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 80px;
+    }
+    .sizeheadappdiv>a {
+        justify-content: center;
+    }
+    .sizeimglayout {
+        display: inline-block!important;
+    }
+    .sizesizeimg {
+        width: 405px;
+        height: 225px;
+    }
+    .morecitysize {
+        display: flex;
+    }
+    .morecity {
+        display: none;
+    }
+    .maph2 {
+        line-height: 44px;
+        font-size: 36px;
+        width: 50%;
+    }
+    .sizemarginmap {
+        margin: 0 24px;
+    }
+    .spacecity2 {
+        display: none;
+    }
+    .sizebutapp {
+        display: flex;
+    }
+    .disbay {
+        display: none;
+    }
+    .citys {
+        display: none;
+    }
+    .sizecitys {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 24px;
+        grid-auto-flow: column;
+        display: grid;
+        margin-top: 24px;
+    }
+    .citysh2 {
+        line-height: 44px;
+        font-size: 36px;
+        margin: 0;
+        font-weight: normal;
+    }
+    .spacecity {
+        height: 80px;
+    }
+    .sizefooterup {
+        display: flex;
+    }
+    .partonesizefooter {
+        flex: 2;
+        justify-content: space-between;
+    }
+    .readmore {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        margin-bottom: 0;
+    }
+    .sizelayoutfootoer {
+        display: flex;
+    }
+    .socialapp {
+        height: 25px;
+        margin-bottom: 0px;
+    }
+    .sizepoliticalset {
+        justify-content: flex-end;
+    }
+    .set1 {
+        margin-left: 40px;
+    }
+    .end {
+        width: 100%;
+    }
+    .sizeendtechinic {
+        justify-content: space-between;
+    }
+    .footerapp {
+        margin-bottom: 0;
+        margin-top: 110px;
     }
 }
