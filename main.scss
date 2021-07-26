@@ -1,6 +1,12 @@
 $colFF:#FFFFFF;
+$colBlac:#0000;
 body {
     background-color: $colFF;
+    color: $colBlac;
+}
+
+a {
+    color: $colBlac;
 }
 
 .cont-menu {
@@ -17,6 +23,7 @@ body {
 
 .findeat {
     color: $colFF;
+    background: $colBlac;
 }
 
 .card {
@@ -28,7 +35,8 @@ body {
 }
 
 #footer {
-    color: $colFF
+    color: $colFF;
+    background-color: $colBlac;
 }
 
 .textreadmore {
@@ -41,4 +49,24 @@ body {
 
 .endopction {
     color: $colFF;
+}
+
+.navsettings {
+    color: $colBlac;
+}
+
+.modbox {
+    color: $colBlac;
+}
+
+.boxup>a {
+    color: $colBlac;
+}
+
+.e1 {
+    color: $colBlac
+}
+
+.appclickmenu {
+    color: $colBlac;
 }

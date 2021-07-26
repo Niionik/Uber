@@ -1,5 +1,10 @@
 body {
   background-color: #FFFFFF;
+  color: green;
+}
+
+a {
+  color: green;
 }
 
 .cont-menu {
@@ -16,6 +21,7 @@ body {
 
 .findeat {
   color: #FFFFFF;
+  background: green;
 }
 
 .card {
@@ -28,6 +34,7 @@ body {
 
 #footer {
   color: #FFFFFF;
+  background-color: green;
 }
 
 .textreadmore {
@@ -40,4 +47,24 @@ body {
 
 .endopction {
   color: #FFFFFF;
+}
+
+.navsettings {
+  color: green;
+}
+
+.modbox {
+  color: green;
+}
+
+.boxup > a {
+  color: green;
+}
+
+.e1 {
+  color: green;
+}
+
+.appclickmenu {
+  color: green;
 }
