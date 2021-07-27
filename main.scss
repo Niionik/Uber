@@ -548,13 +548,12 @@ a {
     color: $colFF;
 }
 
-.set1:hover {
-    text-decoration-line: underline;
-}
-
 .set1 {
     margin-bottom: 16px;
     display: flex;
+    &:hover {
+        text-decoration-line: underline;
+    }
 }
 
 .and {

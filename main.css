@@ -552,13 +552,13 @@ a {
   color: #FFFFFF;
 }
 
-.set1:hover {
-  text-decoration-line: underline;
-}
-
 .set1 {
   margin-bottom: 16px;
   display: flex;
+}
+
+.set1:hover {
+  text-decoration-line: underline;
 }
 
 .and {
