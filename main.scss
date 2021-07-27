@@ -470,6 +470,9 @@ a {
     display: flex;
     flex-direction: column;
     margin-bottom: 64px;
+    a:hover {
+        text-decoration-line: underline;
+    }
 }
 
 .aboutfooter {

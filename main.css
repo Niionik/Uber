@@ -475,6 +475,10 @@ a {
   margin-bottom: 64px;
 }
 
+.readmore a:hover {
+  text-decoration-line: underline;
+}
+
 .aboutfooter {
   margin-bottom: 24px !important;
 }
