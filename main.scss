@@ -1,5 +1,6 @@
 $colFF:#FFFFFF;
-$colBlac:#0000;
+$colBlac:#000;
+$colCya: #EEEEEE;
 body {
     background-color: $colFF;
     color: $colBlac;
@@ -69,4 +70,14 @@ a {
 
 .appclickmenu {
     color: $colBlac;
+    background-color: $colCya;
+}
+
+.buttonapp {
+    color: $colBlac;
+    background-color: $colCya;
+}
+
+.logapptwo {
+    background-color: $colCya;
 }

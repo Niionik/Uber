@@ -1,10 +1,10 @@
 body {
   background-color: #FFFFFF;
-  color: green;
+  color: #000;
 }
 
 a {
-  color: green;
+  color: #000;
 }
 
 .cont-menu {
@@ -21,7 +21,7 @@ a {
 
 .findeat {
   color: #FFFFFF;
-  background: green;
+  background: #000;
 }
 
 .card {
@@ -34,7 +34,7 @@ a {
 
 #footer {
   color: #FFFFFF;
-  background-color: green;
+  background-color: #000;
 }
 
 .textreadmore {
@@ -50,21 +50,31 @@ a {
 }
 
 .navsettings {
-  color: green;
+  color: #000;
 }
 
 .modbox {
-  color: green;
+  color: #000;
 }
 
 .boxup > a {
-  color: green;
+  color: #000;
 }
 
 .e1 {
-  color: green;
+  color: #000;
 }
 
 .appclickmenu {
-  color: green;
+  color: #000;
+  background-color: #EEEEEE;
+}
+
+.buttonapp {
+  color: #000;
+  background-color: #EEEEEE;
+}
+
+.logapptwo {
+  background-color: #EEEEEE;
 }
