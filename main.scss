@@ -16,6 +16,14 @@ a {
 
 .log {
     background-color: $colFF;
+    padding: 8px 12px;
+    border-radius: 500px;
+    line-height: 16px;
+    font-size: 14px;
+    align-items: center;
+    p {
+        margin: 0;
+    }
 }
 
 .box {
@@ -60,8 +68,14 @@ a {
     color: $colBlac;
 }
 
-.boxup>a {
-    color: $colBlac;
+.boxup {
+    line-height: 16px;
+    font-size: 14px;
+    margin-top: 24px;
+    a {
+        color: $colBlac;
+        text-decoration-line: underline;
+    }
 }
 
 .e1 {
@@ -80,4 +94,92 @@ a {
 
 .logapptwo {
     background-color: $colCya;
+}
+
+.androidicon {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    line-height: 24px;
+    font-size: 18px;
+    svg {
+        height: 18px;
+        width: 18px;
+        fill: currentColor;
+        flex: none;
+        line-height: 24px;
+        font-size: 18px;
+        margin-right: 8px;
+    }
+}
+
+.image1 {
+    background-color: #E2E2E2;
+    padding-top: 55.970149253731336%;
+    margin-bottom: 8px;
+    width: 100%;
+    position: relative;
+    img {
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+}
+
+.footerapp {
+    margin-bottom: 64px;
+    display: flex;
+    a {
+        margin-right: 16px;
+        &>img {
+            height: 40px;
+        }
+    }
+}
+
+.menuappone {
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    p {
+        margin: 0;
+    }
+}
+
+.listmenu {
+    list-style: none;
+    padding-left: 0;
+    margin: 24px 0;
+    li {
+        margin-bottom: 16px;
+        &>a {
+            margin: 12px 0;
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+}
+
+.appclickmenu {
+    background: #EEEEEE;
+    border-radius: 500px;
+    padding: 12px;
+    line-height: 16px;
+    font-size: 14px;
+    color: #000000;
+    display: flex;
+    margin-bottom: 8px;
+    margin-top: 16px;
+    justify-content: center;
+    width: auto;
+    align-items: center;
+    margin-right: 8px;
+    a {
+        align-items: center;
+        display: flex;
+        &>svg {
+            width: 23px;
+            margin-right: 5px;
+        }
+    }
 }
